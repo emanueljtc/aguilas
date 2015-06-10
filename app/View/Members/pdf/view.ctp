@@ -58,10 +58,10 @@ membrete{
 
 </style>
 <div class="imagen">
-<img src="../aguilas/app/webroot/img/foto1.jpg"> <!-- INSERTANDO LOGO-->
+<img src="/var/www/html/aguilas/app/webroot/img/logo2.png" width="300px" height="200px" alt="Texto Alternativo"> <!-- INSERTANDO LOGO-->
 </div>
 <div class="fecha">
-<?php echo "/" . date("d") . "/" . date("m") . "/" . date("Y"); ?>
+<?php echo "" . date("d") . "/" . date("m") . "/" . date("Y"); ?>
 </div >
 <br>
 	<membrete>
